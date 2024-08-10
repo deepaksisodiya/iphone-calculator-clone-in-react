@@ -10,7 +10,7 @@ function App() {
         </div>
       </div>
 
-      <div className="calculator">
+      <div>
         <div className="display">0</div>
         <div className="buttons">
           <div className="row">
