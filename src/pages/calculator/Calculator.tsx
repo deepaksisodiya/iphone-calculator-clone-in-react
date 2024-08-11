@@ -90,7 +90,7 @@ function Calculator() {
     <div className="iphone-calculator">
       <Header time={formatTime(time)} />
       <div>
-        <div className="display" style={{ fontSize: `${fontSize}px` }}>
+        <div className="display" style={{ fontSize: `${fontSize}px` }} data-testId="display">
           {displayValue}
         </div>
         <div className="buttons">

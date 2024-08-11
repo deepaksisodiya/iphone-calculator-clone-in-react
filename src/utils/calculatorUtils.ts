@@ -27,7 +27,7 @@ export const handlePercentage = (expression: Array<string | number>, displayValu
   let value;
   if (expression.length > 0) {
     const lastOperator = expression[expression.length - 1];
-    const previousValue = expression[expression.length - 2];
+    const previousValue: number = expression[expression.length - 2] as number;
 
     if (lastOperator === '+' || lastOperator === '-') {
       value = (previousValue * parseFloat(displayValue)) / 100;
