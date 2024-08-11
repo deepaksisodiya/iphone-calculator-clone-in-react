@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.iphone-calculator {
+  width: 320px;
+  height: 674px;
+  background-color: #000;
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.display {
+  font-size: 80px;
+  text-align: right;
+  font-weight: 100;
+  padding-right: 7px;
+  padding-bottom: 16px;
+  transition: font-size 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}

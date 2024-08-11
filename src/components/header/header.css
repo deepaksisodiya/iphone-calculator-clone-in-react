@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+}
+
+.time {
+  margin-left: 10px;
+}
+
+.status-icons {
+  margin-right: 10px;
+}
+
+.status-image {
+  width: 70px;
+  height: auto;
+}
