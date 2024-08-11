@@ -94,3 +94,17 @@ body {
   padding-left: 30px;
   border-radius: 50px;
 }
+
+/* Active state to simulate the press effect */
+.button:active {
+  background-color: #555555; /* Slightly brighter for number buttons */
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3); /* Reduced shadow to simulate press */
+}
+
+.button.operator:active {
+  background-color: #ffb347; /* Slightly brighter for operator buttons */
+}
+
+.button.function:active {
+  background-color: #bfbfbf; /* Slightly brighter for function buttons */
+}
